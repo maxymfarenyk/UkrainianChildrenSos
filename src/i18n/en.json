@@ -7,5 +7,20 @@
     "donate": "Donate",
     "ua": "UA",
     "en": "EN"
+  },
+  "home": {
+    "hero": {
+      "title_line1": "We stand with those",
+      "title_line2": "who need it most",
+      "subtitle1": "We support children with severe illnesses, children from orphanages,",
+      "subtitle2": "and families in need— so they can believe in the future again.",
+      "cta": "Donate"
+    },
+    "description": {
+      "title": "Ukrainian Children SOS",
+      "paragraph1": " — is a charitable organization that provides comprehensive support to Ukrainian children affected by the war. The foundation's main goal is to give every child a sense of safety, care, and hope.",
+      "paragraph2": " — cares for orphans, children with serious illnesses, children from orphanages, low-income families, and also provides assistance to children's homes, rehabilitation centers, and specialized schools.",
+      "paragraph3": "The foundation implements humanitarian programs, organizes psychological and emotional support, recovery camps, educational initiatives, and direct fundraising for families in need."
+    }
   }
 }

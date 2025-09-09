@@ -66,6 +66,7 @@ const Header = () => {
               {t('header.en')}
             </button>
           </div>
+          <span className="sep"></span>
           <a className="donate-btn" href="#help">{t('header.donate')}</a>
         </div>
       </div>

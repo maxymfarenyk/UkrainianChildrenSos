@@ -4,11 +4,11 @@
   left: 0;
   right: 0;
   z-index: 1000;
-  background-color: #b3daf2;
+  background-color: #a1d0ed;
 }
 
 .header-content {
-  max-width: 1200px;
+  max-width: 90%;
   margin: 0 auto;
   padding: 10px 16px;
   display: flex;
@@ -23,7 +23,6 @@
 .brand-title {
   display: flex;
   flex-direction: column;
-  margin-left: 16px;
 }
 
 .brand-link {
@@ -107,13 +106,17 @@
   opacity: 0.6;
 }
 
+.sep {
+  margin: 5%;
+}
+
 .donate-btn {
   background-color: #ffe36b;
   color: #1d2428;
   font-weight: 800;
   font-size: 20px;
   text-decoration: none;
-  margin: 0px 0px 0px 40px;
+  margin: 0;
   padding: 10px 18px;
   border-radius: 999px;
   display: inline-block;
