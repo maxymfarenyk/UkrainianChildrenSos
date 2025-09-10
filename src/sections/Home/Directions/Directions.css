@@ -1,0 +1,59 @@
+.directions {
+    background: #FFFBD1;
+    padding: 0px;
+    text-align: center;
+}
+
+.directions-title {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.directions-inner {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 60px 40px;
+    gap: 30px;
+}
+
+.direction-item {
+    flex: 1;
+    min-width: 250px;
+    max-width: 320px;
+    text-align: center;
+}
+
+.direction-icon {
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+.direction-text {
+    font-size: 22px;
+    line-height: 1.5;
+}
+
+.wave-wrapper {
+    position: relative;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.wave-wrapper.top {
+    top: 0;
+    transform: rotate(180deg); /* щоб верхня хвиля виглядала правильно */
+}
+
+.wave-wrapper.bottom {
+    bottom: 0;
+}
+
+.wave {
+    display: block;
+    width: 100%;
+    height: 60px;
+}

@@ -21,6 +21,46 @@
       "paragraph1": " — is a charitable organization that provides comprehensive support to Ukrainian children affected by the war. The foundation's main goal is to give every child a sense of safety, care, and hope.",
       "paragraph2": " — cares for orphans, children with serious illnesses, children from orphanages, low-income families, and also provides assistance to children's homes, rehabilitation centers, and specialized schools.",
       "paragraph3": "The foundation implements humanitarian programs, organizes psychological and emotional support, recovery camps, educational initiatives, and direct fundraising for families in need."
+    },
+    "directions": {
+      "title": "Our main areas of work",
+      "children": "We support children who have lost their parents, suffer from serious illnesses, or grow up in orphanages.",
+      "families": "We help families facing hardship and those raising seriously ill children.",
+      "institutions": "We support institutions that care for children — from orphanages to specialized schools and rehabilitation centers."
+    },
+    "testimony": {
+      "vitalii": {
+        "name": "VITALII, 16",
+        "location": "KHERSON",
+        "quote": "«We had special lessons where teachers told us that Russia was a great country that would soon win the war, and that Ukrainians were terrorists.»"
+      },
+      "artem": {
+        "name": "ARTEM, 13",
+        "location": "KHARKIV",
+        "quote": "«I wanted to escape through the backyard, but I was afraid they might shoot me. So I had to get into their truck. It was terrifying.»"
+      },
+      "dayana": {
+        "name": "DAYANA, 14",
+        "location": "KHERSON",
+        "quote": "«We were forced to sing the [Russian] anthem, especially when inspections came»"
+      },
+      "oleksandr": {
+        "name": "OLEKSANDR, 12",
+        "location": "MARIUPOL",
+        "quote": "«The Russians told me my mother didn't need me, and that I would be sent to a foster family in Russia.»"
+      },
+      "illia": {
+        "name": "ILLIA, 11",
+        "location": "MARIUPOL",
+        "quote": "«Even though I had a serious injury, in that hospital they still tried to turn me into a propaganda tool.»"
+      }
     }
+  },
+  "footer": {
+    "links": "Useful Links",
+    "privacy": "Privacy Policy",
+    "offer": "Public Offer Agreement",
+    "terms": "Terms of Use",
+    "tax": "Tax Reports"
   }
 }
