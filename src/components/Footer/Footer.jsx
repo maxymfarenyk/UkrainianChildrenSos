@@ -23,7 +23,7 @@ const Footer = () => {
                         <span>📘</span>
                     </div>
 
-                    <a className="donate-btn" href="#help">{t('header.donate')}</a>
+                    <a className="footer-donate-btn" href="#help">{t('header.donate')}</a>
 
                     <ul className="footer-links">
                         <li>{t('footer.privacy')}</li>
@@ -43,17 +43,17 @@ const Footer = () => {
                         <li><a href="#contacts">{t('header.contacts')}</a></li>
                     </ul>
 
-                    <div className="lang">
+                    <div className="footer-lang">
                         <button
-                            className={`lang-btn ${language === 'uk' ? 'active' : ''}`}
+                            className={`footer-lang-btn ${language === 'uk' ? 'active' : ''}`}
                             type="button"
                             onClick={() => setLanguage('uk')}
                         >
                             {t('header.ua')}
                         </button>
-                        <span className="lang-sep">|</span>
+                        <span className="footer-lang-sep">|</span>
                         <button
-                            className={`lang-btn ${language === 'en' ? 'active' : ''}`}
+                            className={`footer-lang-btn ${language === 'en' ? 'active' : ''}`}
                             type="button"
                             onClick={() => setLanguage('en')}
                         >

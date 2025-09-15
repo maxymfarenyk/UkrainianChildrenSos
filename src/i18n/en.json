@@ -54,6 +54,15 @@
         "location": "MARIUPOL",
         "quote": "«Even though I had a serious injury, in that hospital they still tried to turn me into a propaganda tool.»"
       }
+    },
+    "statistics": {
+      "title": "Children Impacted by the War",
+      "date": "Data as of {{date_value}}",
+      "deceased": "killed",
+      "injured": "injured",
+      "missing": "missing",
+      "displaced": "forcibly displaced",
+      "note": "*The exact number of affected children cannot be determined due to ongoing hostilities and the temporary occupation of parts of Ukraine's territory."
     }
   },
   "footer": {
