@@ -13,9 +13,9 @@ const Footer = () => {
                 <div className="footer-col">
                     <h3 className="footer-title">{t('header.contacts')}</h3>
                     <ul className="footer-list">
-                        <li>📧 help@gmail.com</li>
-                        <li>📞 +38 999 999 34 44</li>
-                        <li>📍 Лондон</li>
+                        <li>📧 ukrainianchildrensos@gmail.com</li>
+                        <li>📞 +44 7533 344323</li>
+                        <li>📍 {t('footer.location')}</li>
                     </ul>
 
                     <div className="footer-social">

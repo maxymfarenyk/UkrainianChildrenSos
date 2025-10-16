@@ -62,11 +62,11 @@ const Testimony = () => {
                             el: '.testimony-pagination',
                             clickable: true,
                         }}
-                        autoplay={{
-                            delay: 5000,
-                            disableOnInteraction: true,
-                            pauseOnMouseEnter: true,
-                        }}
+                        // autoplay={{
+                        //     delay: 5000,
+                        //     disableOnInteraction: true,
+                        //     pauseOnMouseEnter: true,
+                        // }}
                         loop={false}
                         speed={600}
                         breakpoints={{

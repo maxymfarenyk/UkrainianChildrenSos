@@ -117,7 +117,7 @@
 .testimony-pagination {
     display: flex;
     justify-content: center;
-    gap: 16px;
+    gap: 10px;
     margin-top: 40px;
     position: relative;
 }
@@ -141,7 +141,7 @@
     opacity: 0.8;
 }
 
-/* Hide default Swiper navigation and pagination */
+/* Hide default Styles navigation and pagination */
 .testimony-swiper .swiper-button-next,
 .testimony-swiper .swiper-button-prev {
     display: none;

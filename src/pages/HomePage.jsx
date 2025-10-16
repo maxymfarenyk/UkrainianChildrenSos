@@ -5,6 +5,7 @@ import Directions from "../sections/Home/Directions/Directions.jsx";
 import Testimony from "../sections/Home/Testimony/Testimony.jsx";
 import Statistics from "../sections/Home/Statistics/Statistics.jsx";
 import HelpBanner from "../components/HelpBanner/HelpBanner.jsx";
+import Gallery from "../components/Gallery/Gallery.jsx";
 
 const HomePage = () => {
     return (
@@ -15,6 +16,7 @@ const HomePage = () => {
             <Testimony/>
             <Statistics/>
             <HelpBanner />
+            <Gallery />
         </main>
     );
 };

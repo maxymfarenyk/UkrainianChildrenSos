@@ -2,9 +2,8 @@
     position: relative;
     background: transparent;
     padding: 0;
-    margin-bottom: 60px;
+    margin-bottom: 0;
     text-align: center;
-    overflow: hidden;
 }
 
 .help-banner-content {
@@ -19,15 +18,16 @@
     overflow: hidden;
     margin: 0 auto;
     max-width: 1200px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.3);
 }
 
 
 .help-banner-content {
-    background-image: url('https://via.placeholder.com/1200x500/cccccc/000000?text=Your+Image+Here');
+    background-image: url('../../assets/giveachance.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
 }
 
 
