@@ -34,26 +34,18 @@
     font-size: 22px;
     line-height: 1.5;
 }
-
-.wave-wrapper {
+.wave {
     position: relative;
     left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
-}
-
-.wave-wrapper.top {
-    top: 0;
-    transform: rotate(180deg); /* щоб верхня хвиля виглядала правильно */
-}
-
-.wave-wrapper.bottom {
-    bottom: 0;
-}
-
-.wave {
-    display: block;
+    right: 0;
     width: 100%;
     height: 60px;
+}
+
+.wave-up {
+    top: -3px;
+}
+
+.wave-down {
+    bottom: -8px;
 }

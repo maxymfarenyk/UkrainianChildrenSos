@@ -13,7 +13,7 @@ const Header = () => {
                 <div className="brand">
                     <div className="brand-title">
                         <Link to="/" aria-label="Go to home" className="brand-link">
-                            <img src={'src/assets/ucs_logo.png'} alt="Logo"/>
+                            <img src={'src/assets/images/Logo UCS full black 1.png'} alt="Logo"/>
                         </Link>
                     </div>
                 </div>
@@ -27,13 +27,14 @@ const Header = () => {
                     >
                         {t('header.fund')}
                     </NavLink>
-                    <a
-                        className={`nav-link ${activeLink === 'projects' ? 'active' : ''}`}
-                        href="#projects"
-                        onClick={() => setActiveLink('projects')}
+                    <NavLink
+                        to="/projects"
+                        className={({isActive}) =>
+                            `nav-link ${isActive ? 'active' : ''}`
+                        }
                     >
                         {t('header.projects')}
-                    </a>
+                    </NavLink>
                     <NavLink
                         to="/stories"
                         className={({isActive}) =>
@@ -42,13 +43,14 @@ const Header = () => {
                     >
                         {t('header.stories')}
                     </NavLink>
-                    <a
-                        className={`nav-link ${activeLink === 'contacts' ? 'active' : ''}`}
-                        href="#contacts"
-                        onClick={() => setActiveLink('contacts')}
+                    <NavLink
+                        to="/contacts"
+                        className={({isActive}) =>
+                            `nav-link ${isActive ? 'active' : ''}`
+                        }
                     >
                         {t('header.contacts')}
-                    </a>
+                    </NavLink>
                 </nav>
 
                 <div className="actions">

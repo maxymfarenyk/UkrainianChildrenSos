@@ -7,11 +7,13 @@ const Directions = () => {
 
     return (
         <section className="directions">
-            <div className="wave-wrapper top">
-                <svg className="wave" viewBox="0 0 1440 120" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M0,80 C240,140 480,0 720,60 C960,120 1200,40 1440,80 L1440,120 L0,120 Z" fill="#ffffff" />
+                <svg className="wave wave-up" width="1440" height="55" viewBox="0 0 1440 55" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        fill="#FFFFFF"
+                        fillRule="evenodd"
+                        d="M0 0 H1439 V55 H0 V0 Z M0 24.1354 C239.999 22.3647 480.001 0 720 0 C959.999 0 1200 22.3647 1440 24.1354 V55 C1200 55 959.999 55 720 55 C480.001 55 239.999 55 0 55 L0 24.1354 Z"
+                    />
                 </svg>
-            </div>
 
 
                 <h2 className="directions-title">{t('home.directions.title')}</h2>
@@ -42,11 +44,14 @@ const Directions = () => {
                 </div>
             </div>
 
-            <div className="wave-wrapper bottom">
-                <svg className="wave" viewBox="0 0 1440 120" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M0,80 C240,140 480,0 720,60 C960,120 1200,40 1440,80 L1440,120 L0,120 Z" fill="#ffffff" />
-                </svg>
-            </div>
+            <svg className="wave wave-down" width="1440" height="55" viewBox="0 0 1440 55" xmlns="http://www.w3.org/2000/svg">
+                <path
+                    fill="#FFFFFF"
+                    fillRule="evenodd"
+                    d="M0 0 H1440 V55 H0 V0 Z M1440 30.8646 C1200 32.6353 959.999 55 720 55 C480.001 55 239.999 32.6353 0 30.8646 V0 C239.999 0 480.001 0 720 0 C959.999 0 1200 0 1440 0 V30.8646 Z"
+                />
+            </svg>
+
         </section>
     );
 };

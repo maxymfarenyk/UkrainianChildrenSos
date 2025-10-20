@@ -1,5 +1,19 @@
+@font-face {
+  font-family: 'CirceRounded';
+  src: url('./assets/fonts/CirceRounded-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'CirceRounded';
+  src: url('./assets/fonts/CirceRounded-ExtraBold.otf') format('opentype');
+  font-weight: 800;
+  font-style: normal;
+}
+
 :root {
-  font-family: "Comic Relief", system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: CirceRounded, CirceRounded-Regular, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
 

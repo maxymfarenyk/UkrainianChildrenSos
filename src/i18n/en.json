@@ -69,6 +69,33 @@
     "title": "Give a child a chance for a better tomorrow",
     "subtitle": "Monthly support helps provide them with shelter, food, psychological care, and education"
   },
+  "fund": {
+    "hero": {
+      "title_line1": "Giving children strength",
+      "title_line2": "in the hardest times",
+      "subtitle1": "Ukrainian Children SOS is a team united to support children",
+      "subtitle2": "who have endured war, loss, and pain. We stand by them to give",
+      "subtitle3": "back their childhood."
+    }
+  },
+  "projects": {
+    "hero": {
+      "title_line1": "Our Projects – for those",
+      "title_line2": "who need it most",
+      "subtitle1": "Every initiative of Ukrainian Children SOS is real action.",
+      "subtitle2": "We create projects that bring children support, joy, new",
+      "subtitle3": "opportunities, and hope for a better future."
+    }
+  },
+  "stories": {
+    "hero": {
+      "title_line1": "Stories That Must Not Be",
+      "title_line2": "Forgotten",
+      "subtitle1": "Personal accounts of children and families affected by the war.",
+      "subtitle2": "Statistics, quotes, and real voices — so we remember who we are",
+      "subtitle3": "helping."
+    }
+  },
   "footer": {
     "location": "London",
     "links": "Useful Links",

@@ -1,6 +1,7 @@
 import React from 'react';
 import './Hero.css';
 import { useLanguage } from '../../../context/LanguageContext.jsx';
+import BlueWave from "../../../components/Waves/BlueWave.jsx";
 
 const Hero = () => {
   const { t } = useLanguage();
@@ -28,9 +29,8 @@ const Hero = () => {
         </div>
       </div>
 
-      <svg className="home-hero__wave" viewBox="0 0 1440 120" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
-        <path d="M0,80 C240,140 480,0 720,60 C960,120 1200,40 1440,80 L1440,120 L0,120 Z" fill="#ffffff" />
-      </svg>
+      <BlueWave />
+
     </section>
   );
 };

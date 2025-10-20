@@ -17,7 +17,7 @@
 
 .brand {
   display: flex;
-  align-items: center;
+  align-items: flex-end;
 }
 
 .brand-title {
@@ -32,7 +32,7 @@
 }
 
 .brand-link img {
-  width: 100%; /* Зображення займе 100% ширини свого батьківського елемента */
+  width: 80%;
   height: auto; /* Висота буде підлаштовуватися автоматично */
 }
 
@@ -68,7 +68,7 @@
 }
 
 .actions {
-  margin-left: 40px;
+  margin-left: 100px;
   display: flex;
   align-items: center;
   gap: 10px;
