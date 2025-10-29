@@ -9,7 +9,7 @@
   width: 90%;
   max-width: 90%;
   margin: 0 auto;
-  padding: 140px 5vw 90px; /* responsive gutters */
+  padding: 130px 5vw 15px; /* responsive gutters */
   display: flex;
   align-items: start;
   justify-content: space-between;

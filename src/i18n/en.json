@@ -76,6 +76,29 @@
       "subtitle1": "Ukrainian Children SOS is a team united to support children",
       "subtitle2": "who have endured war, loss, and pain. We stand by them to give",
       "subtitle3": "back their childhood."
+    },
+    "description": {
+      "title": "About the Foundation",
+      "p1": "Ukrainian Children SOS is a charity that supports Ukrainian children whose childhoods have been shattered by war. We stand with those who lost parents, their homes, or lived through trauma. We help them not only survive, but believe in life again.",
+      "p2": "Our mission is to give every child a sense of care, safety, and hope for a brighter future.",
+      "p3": "We organize rehabilitation camps, provide psychological support, and deliver aid to families and institutions that care for children. Together with volunteers, professionals, and donors, we create spaces where children can laugh, learn, and dream again.",
+      "p4": "Ukrainian Children SOS offers more than help — it gives children a future."
+    },
+    "team": {
+      "title": "Our team",
+      "name": {
+        "mykhailo": "Mykhailo Yatsyshyn",
+        "liubov": "Liubov Yatsyshyn",
+        "oksana": "Oksana Tabas",
+        "volodymyr": "Volodymyr",
+        "serhiy": "Serhiy",
+        "iryna": "Iryna"
+      },
+      "job": {
+        "founder": "Founder",
+        "trustee": "Trustee",
+        "volunteer": "Volunteer"
+      }
     }
   },
   "projects": {

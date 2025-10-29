@@ -1,0 +1,41 @@
+.fund-description {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+
+.fund-description__inner {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.fund-description__text-grid {
+    display: flex;
+    gap: 40px;
+}
+
+.fund-description__title {
+    margin-bottom: 20px;
+}
+
+.fund-description__column {
+    flex: 1;
+    min-width: 0;
+}
+
+@media (max-width: 768px) {
+
+    .fund-description__text-grid {
+        flex-direction: column;
+        gap: 0px;
+    }
+
+    .fund-description__column {
+        flex: unset;
+        width: 100%;
+    }
+}
