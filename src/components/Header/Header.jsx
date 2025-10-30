@@ -1,11 +1,16 @@
-import React, {useState} from 'react'
+import React, { useState } from 'react'
 import './Header.css'
 import {useLanguage} from '../../context/LanguageContext.jsx'
 import {Link, NavLink} from "react-router-dom";
 
 const Header = () => {
     const {language, setLanguage, t} = useLanguage()
-    const [activeLink, setActiveLink] = useState('')
+
+    const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+    const toggleMenu = () => {
+        setIsMenuOpen(!isMenuOpen);
+    };
 
     return (
         <header className="site-header">
@@ -73,8 +78,45 @@ const Header = () => {
                     </div>
                     <span className="sep"></span>
                     <a className="donate-btn" href="#help">{t('header.donate')}</a>
+                    <button
+                        className={`menu-toggle ${isMenuOpen ? 'is-active' : ''}`}
+                        aria-label="Toggle navigation"
+                        onClick={toggleMenu} // <--- ОБРОБНИК КЛІКУ
+                    >
+                        {/* Іконка буде стилізована в CSS */}
+                        <span className="hamburger-icon"></span>
+                    </button>
                 </div>
             </div>
+            <div className={`mobile-menu ${isMenuOpen ? 'is-open' : ''}`}>
+                <nav className="mobile-nav">
+                    {/* При кліку закриваємо меню */}
+                    <NavLink to="/fund" onClick={toggleMenu}>{t('header.fund')}</NavLink>
+                    <NavLink to="/projects" onClick={toggleMenu}>{t('header.projects')}</NavLink>
+                    <NavLink to="/stories" onClick={toggleMenu}>{t('header.stories')}</NavLink>
+                    <NavLink to="/contacts" onClick={toggleMenu}>{t('header.contacts')}</NavLink>
+                </nav>
+
+                {/* Перемикач мови для мобільного меню */}
+                <div className="mobile-lang">
+                    <button
+                        className={`mobile-lang-btn ${language === 'uk' ? 'active' : ''}`}
+                        type="button"
+                        onClick={() => setLanguage('uk')}
+                    >
+                        {t('header.ua')}
+                    </button>
+                    <span className="mobile-lang-sep">|</span>
+                    <button
+                        className={`mobile-lang-btn ${language === 'en' ? 'active' : ''}`}
+                        type="button"
+                        onClick={() => setLanguage('en')}
+                    >
+                        {t('header.en')}
+                    </button>
+                </div>
+            </div>
+
         </header>
     )
 }
