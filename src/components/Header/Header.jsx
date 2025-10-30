@@ -18,7 +18,7 @@ const Header = () => {
                 <div className="brand">
                     <div className="brand-title">
                         <Link to="/" aria-label="Go to home" className="brand-link">
-                            <img src={'src/assets/images/Logo UCS full black 1.png'} alt="Logo"/>
+                            <img src={'/assets/images/logo.png'} alt="Logo"/>
                         </Link>
                     </div>
                 </div>

@@ -1,23 +1,33 @@
 .site-footer {
     background: #a1d0ed;
-    padding: 40px 80px;
+    padding: 40px 120px;
+    font-size: 17px;
 }
 
 .footer-content {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     flex-wrap: wrap;
     align-items: flex-start;
 }
 
-.footer-col {
-    flex: 1;
+.footer-col-left {
     min-width: 250px;
-    margin-bottom: 30px;
+    flex-grow: 0;
+    flex-shrink: 0;
+    margin-right: 50px;
+}
+
+.footer-col-center {
+    width: 180px;
+    flex-grow: 0; /* НЕ росте */
+    flex-shrink: 0; /* НЕ стискається */
+    margin-left: 160px;
+    margin-right: auto;
 }
 
 .footer-title {
-    font-size: 20px;
+    font-size: 32px;
     font-weight: bold;
     margin-bottom: 15px;
 }
@@ -26,26 +36,36 @@
     list-style: none;
     margin: 0;
     padding: 0;
+    font-weight: bold;
 }
 
 .footer-list li {
     margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.footer-list li a{
+    font-weight: bold;
+    color: #213547;
 }
 
 .footer-links {
     list-style: none;
-    margin-top: 20px;
+    margin-top: 15px;
     padding: 0;
+    font-weight: bold;
 }
 
 .footer-links li {
-    margin-bottom: 8px;
+    margin-bottom: 10px;
 }
 
 .footer-social {
     display: flex;
-    gap: 12px;
-    margin-top: 15px;
+    gap: 15px;
+    margin-top: 20px;
 }
 
 .footer-donate-btn {
@@ -91,12 +111,76 @@
 }
 
 .footer-placeholder {
-    flex: 1;
+    flex-grow: 1;
     min-width: 200px;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-end;
+    align-items: flex-start;
+    position: relative;
     font-style: italic;
     color: #555;
 }
 
+.footer-links.mobile-only {
+    display: none;
+}
+
+@media (max-width: 992px) {
+    .site-footer {
+        padding: 10%;
+        text-align: center;
+    }
+
+    .footer-content {
+        flex-direction: column; /* Елементи один під одним */
+        justify-content: center; /* Центрує по горизонталі (якщо flex-direction: row) */
+        align-items: center; /* Центрує по горизонталі (якщо flex-direction: column) */
+    }
+
+    .footer-col-left,
+    .footer-col-center {
+        margin-right: 0;
+        margin-left: 0;
+        min-width: unset;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 0px;
+    }
+
+    .footer-col-left {
+        order: 1;
+    }
+
+    .footer-col-center {
+        order: 2;
+    }
+
+    .footer-links.mobile-only {
+        order: 3;
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    .footer-links.desktop-only {
+        display: none;
+    }
+
+    .footer-links.mobile-only {
+        display: block;
+        margin-top: 10%/* Відображаємо мобільний блок */
+    }
+
+    .footer-social {
+        justify-content: center; /* Центруємо іконки */
+    }
+
+    .footer-list li {
+        /* Центруємо елементи списку всередині контейнера */
+        justify-content: center;
+    }
+
+    /* Приховати плейсхолдер */
+    .footer-placeholder {
+        display: none;
+    }
+}
