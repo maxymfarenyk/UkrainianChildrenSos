@@ -11,7 +11,6 @@ const Testimony = () => {
     const { t } = useLanguage();
     const swiperRef = useRef(null);
 
-    // Testimonies data
     const testimonies = [
         {
             id: 'vitalii',

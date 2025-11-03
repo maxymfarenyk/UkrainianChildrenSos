@@ -21,7 +21,7 @@
 }
 
 .testimony-swiper {
-    padding: 0 80px 0 0; /* Space for navigation */
+    padding: 0 80px 0 0;
     overflow: visible;
 }
 
@@ -66,7 +66,7 @@
     letter-spacing: 1px;
 }
 
-/* Custom Navigation Arrows */
+
 .slider-arrow-prev,
 .slider-arrow-next {
     position: absolute;
@@ -113,7 +113,7 @@
     display: none;
 }
 
-/* Custom Pagination */
+
 .testimony-pagination {
     display: flex;
     justify-content: center;
@@ -141,7 +141,7 @@
     opacity: 0.8;
 }
 
-/* Hide default Styles navigation and pagination */
+
 .testimony-swiper .swiper-button-next,
 .testimony-swiper .swiper-button-prev {
     display: none;
@@ -151,24 +151,25 @@
     position: static;
 }
 
-/* Responsive design */
+
 @media (max-width: 1024px) {
     .testimony-swiper {
-        padding: 0 70px 0 70px;
+        padding: 0 40px 0 40px;
+        overflow: visible;
     }
 
     .testimony-card {
-        padding: 30px 25px 25px;
-        min-height: 240px;
+        padding: 25px 20px 20px;
+        min-height: 200px;
     }
 
     .testimony-quote {
-        font-size: 16px;
-        margin-bottom: 30px;
+        font-size: 15px;
+        margin-bottom: 25px;
     }
 
     .author-name, .author-location {
-        font-size: 20px;
+        font-size: 18px;
     }
 
     .slider-arrow-prev,
@@ -177,11 +178,59 @@
     }
 
     .slider-arrow-prev {
-        left: 10px;
+        left: 0px;
     }
 
     .slider-arrow-next {
-        right: 10px;
+        right: 0px;
+    }
+}
+
+@media (max-width: 576px) {
+    .home-testimony {
+        padding: 0;
+    }
+
+    .home-testimony-inner {
+        padding: 0 10px;
+        max-width: 95%;
+    }
+
+
+    .testimony-card {
+        padding: 20px 15px 15px;
+        border-width: 2px;
+        justify-content: space-between;
+        min-height: 145px;
+    }
+
+    .testimony-quote {
+        font-size: 14px;
+        margin-bottom: 0px;
+        flex-grow: 0;
+    }
+
+    .testimony-author {
+        margin-top: 0px;
+    }
+
+    .author-name, .author-location {
+        font-size: 16px;
+    }
+
+
+    .testimony-swiper {
+        padding: 0;
+        overflow: hidden;
+    }
+
+    .testimony-pagination {
+        display: none;
+    }
+
+    .testimony-prev.slider-arrow-prev,
+    .testimony-next.slider-arrow-next {
+        display: none;
     }
 }
 

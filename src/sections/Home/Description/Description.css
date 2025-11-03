@@ -8,7 +8,7 @@
 .home-description-inner {
     max-width: 40%;
     margin: 0 auto;
-    padding: 0% 20%;
+    padding: 0 20%;
     display: block;
     align-items: start;
     justify-content: space-between;
@@ -17,4 +17,11 @@
 
 .home-description-text {
     font-size: 18px;
+}
+
+@media (max-width: 767px) {
+    .home-description-inner {
+        max-width: none;
+        padding: 0 5%;
+    }
 }

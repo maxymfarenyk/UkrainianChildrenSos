@@ -49,3 +49,13 @@
 .wave-down {
     bottom: -8px;
 }
+
+@media (max-width: 767px) {
+    .directions-inner{
+        padding-top: 30px;
+    }
+
+    .direction-text {
+        text-align: left;
+    }
+}
