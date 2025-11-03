@@ -3,8 +3,6 @@ import React from "react";
 const BlueWave = () => (
     <svg
         className="home-hero__wave"
-        width="1440"
-        height="55"
         viewBox="0 0 1440 55"
         xmlns="http://www.w3.org/2000/svg"
     >
