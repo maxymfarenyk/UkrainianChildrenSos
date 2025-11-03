@@ -26,7 +26,15 @@ const Hero = () => {
                 </div>
 
                 <div className="home-hero__decor" aria-hidden="true">
-                    <div className="home-hero__sun" />
+                    <div className="decor__butterfly">
+                        <img src={'/assets/images/butterfly_icon.png'} alt="ukrainian flag icon"/>
+                    </div>
+                    <div className="decor__car">
+                        <img src={'/assets/images/car_icon.png'} alt="boy running icon"/>
+                    </div>
+                    <div className="decor__sun">
+                        <img src={'/assets/images/sun_icon.png'} alt="sun icon"/>
+                    </div>
                 </div>
             </div>
 
