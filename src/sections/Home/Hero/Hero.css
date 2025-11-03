@@ -125,37 +125,69 @@
     }
 }
 
-@media (max-width: 1024px) {
-    .home-hero__title {
-        font-size: 56px;
-    }
-
-    .home-hero__subtitle {
-        font-size: 22px;
-    }
-}
-
-@media (max-width: 768px) {
+@media (max-width: 767px) {
     .home-hero__inner {
         padding: 120px 20px 70px;
         flex-direction: column;
         align-items: flex-start;
     }
 
+    .decor__flag {
+        position: absolute;
+        top: -20px;
+        right: 240px;
+        width: 87px;
+        height: auto;
+    }
+
+    .decor__boy {
+        position: absolute;
+        bottom: 10px;
+        right: 70px;
+        width: 160px;
+        height: auto;
+    }
+
+    .decor__sun {
+        position: absolute;
+        top: -90px;
+        right: 10px;
+        width: 104px;
+        height: auto;
+    }
+
+    .decor__butterfly {
+        position: absolute;
+        top: -10px;
+        right: 250px;
+        width: 62px;
+        height: auto;
+    }
+
+    .decor__car {
+        position: absolute;
+        top: 140px;
+        right: 110px;
+        width: 83px;
+        height: auto;
+    }
+
     .home-hero__decor {
+        order: -1;
         align-self: stretch;
         min-height: 240px;
+        display: block;
     }
 
-    .home-hero__flagkid {
-        right: 16px;
-        width: 220px;
-        height: 220px;
+    .home-hero__title {
+        font-size: 30px;
     }
 
-    .home-hero__sun {
-        right: 16px;
-        width: 120px;
-        height: 120px;
+    .home-hero__subtitle {
+        font-size: 22px;
     }
-} 
+
+    .donate-btn{
+        width: 90%;
+    }
+}
