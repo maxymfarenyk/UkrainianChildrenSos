@@ -61,3 +61,46 @@
     padding-top: 5px;
     padding-left: 55px;
 }
+
+@media (max-width: 768px) {
+
+    .statistics {
+        padding-inline: 5%;
+        padding-bottom: 40px;
+    }
+
+    .statistics-title {
+        font-size: 24px;
+        padding-left: 0;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .statistics-date {
+        font-size: 18px;
+        margin-bottom: 20px;
+        padding-left: 0;
+    }
+
+    .statistics-inner {
+        gap: 15px;
+    }
+
+    .statistic-item {
+        padding: 10px 20px;
+        width: 100%;
+    }
+
+    .statistic-value {
+        font-size: 36px;
+    }
+
+    .statistic-label {
+        margin-top: 5px;
+    }
+
+    .statistics-note {
+        padding-left: 0;
+        padding-top: 0;
+    }
+}

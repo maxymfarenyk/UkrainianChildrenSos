@@ -65,26 +65,28 @@
 
 
 @media (max-width: 768px) {
-    .help-banner-title {
-        font-size: 36px;
+    .help-banner {
+        padding-bottom: 20px;
     }
-    .help-banner-subtitle {
-        font-size: 18px;
-    }
-    .help-banner-content {
-        min-height: 400px;
-    }
-}
 
-@media (max-width: 480px) {
+    .help-banner-content {
+        width: 90%;
+        min-height: 250px;
+    }
+
+    .help-banner-overlay {
+        padding: 0;
+    }
+
     .help-banner-title {
-        font-size: 28px;
+        font-size: 18px;
+        margin-top: 15%;
     }
     .help-banner-subtitle {
         font-size: 16px;
+        line-height: 1.1;
+        margin-top: 5%;
+        max-width: 90%;
     }
-    .help-banner-button {
-        padding: 12px 30px;
-        font-size: 18px;
-    }
+
 }

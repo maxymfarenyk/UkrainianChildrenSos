@@ -164,7 +164,7 @@
     }
 
     .testimony-quote {
-        font-size: 15px;
+        font-size: 18px;
         margin-bottom: 25px;
     }
 
@@ -186,7 +186,7 @@
     }
 }
 
-@media (max-width: 576px) {
+@media (max-width: 768px) {
     .home-testimony {
         padding: 0;
     }
@@ -201,11 +201,12 @@
         padding: 20px 15px 15px;
         border-width: 2px;
         justify-content: space-between;
-        min-height: 145px;
+        min-height: 205px;
     }
 
     .testimony-quote {
-        font-size: 14px;
+        font-size: 18px;
+        margin-top: 10%;
         margin-bottom: 0px;
         flex-grow: 0;
     }

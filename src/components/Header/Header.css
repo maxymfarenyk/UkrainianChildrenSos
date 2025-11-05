@@ -285,6 +285,15 @@
         min-width: unset;
         width: 100px;
     }
+
+    .donate-btn.banner {
+        width: 90%;
+        font-size: 20px;
+    }
+
+    .donate-btn.help {
+        width: 70%;
+    }
 }
 
 @media (max-width: 480px) {

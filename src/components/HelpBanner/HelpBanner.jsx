@@ -11,7 +11,7 @@ const HelpBanner = () => {
                 <div className="help-banner-overlay">
                     <h2 className="help-banner-title">{t('help_banner.title')}</h2>
                     <p className="help-banner-subtitle">{t('help_banner.subtitle')}</p>
-                    <a className="donate-btn" href="#help">{t('header.donate')}</a>
+                    <a className="donate-btn help" href="#help">{t('header.donate')}</a>
                 </div>
             </div>
         </section>
