@@ -102,8 +102,10 @@
     cursor: pointer;
 }
 
+.footer-lang-btn:focus,
 .footer-lang-btn.active {
     color: #ffeb6d;
+    outline: none;
 }
 
 .footer-lang-sep {

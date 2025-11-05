@@ -71,9 +71,10 @@
     outline: none;
     transition: color 0.2s ease;
 }
-
+.lang-btn:focus,
 .lang-btn.active {
     color: #f7d85e;
+    outline: none;
 }
 
 .lang-sep {
@@ -120,6 +121,11 @@
     z-index: 1005;
 }
 
+.menu-toggle:focus,
+.menu-toggle:active {
+    outline: none;
+}
+
 .hamburger-icon {
     display: block;
     width: 30px;
@@ -131,6 +137,8 @@
     transform: translate(-50%, -50%);
     transition: background-color 0.3s ease;
 }
+
+
 
 .hamburger-icon::before,
 .hamburger-icon::after {
@@ -231,8 +239,10 @@
     transition: color 0.2s ease;
 }
 
+.mobile-lang-btn.focus,
 .mobile-lang-btn.active {
     color: #f7d85e;
+    outline: none;
 }
 
 .mobile-lang-sep {
