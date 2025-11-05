@@ -1,0 +1,45 @@
+.yarmarky-photo-gallery {
+    padding: 40px 0;
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.yarmarky-photo-gallery__grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    grid-auto-rows: minmax(200px, auto);
+}
+
+.yarmarky-photo-gallery__item {
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.yarmarky-photo-gallery__image {
+    width: 100%;
+    height: 100%;
+    max-height: 341px;
+    object-fit: cover;
+    display: block;
+}
+
+.yarmarky-photo-gallery__grid .yarmarky-photo-gallery__item:nth-child(1),
+.yarmarky-photo-gallery__grid .yarmarky-photo-gallery__item:nth-child(6),
+.yarmarky-photo-gallery__grid .yarmarky-photo-gallery__item:nth-child(7){
+    grid-column: span 2;
+}
+
+@media (max-width: 768px) {
+    .yarmarky-photo-gallery {
+        padding-top: 40px;
+    }
+
+
+    .yarmarky-photo-gallery__grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+}
+

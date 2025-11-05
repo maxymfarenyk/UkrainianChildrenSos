@@ -22,7 +22,7 @@ const Hero = () => {
                         <br />
                         {t('fund.hero.subtitle3')}
                     </p>
-                    <a href="#help" className="donate-btn">{t('home.hero.cta')}</a>
+                    <a href="#help" className="donate-btn banner">{t('home.hero.cta')}</a>
                 </div>
 
                 <div className="home-hero__decor" aria-hidden="true">
