@@ -7,10 +7,12 @@ import StoriesPage from "./pages/StoriesPage.jsx";
 import ProjectsPage from "./pages/ProjectsPage.jsx";
 import Footer from "./components/Footer/Footer.jsx";
 import ContactsPage from "./pages/ContactsPage.jsx";
+import ScrollToTop from "./components/ScrollToTop/ScrollToTop.jsx";
 
 function App() {
     return (
         <HashRouter>
+            <ScrollToTop/>
             <Header/>
             <Routes>
                 <Route path="/" element={<HomePage/>}/>
