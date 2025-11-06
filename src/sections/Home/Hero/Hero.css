@@ -106,7 +106,7 @@
     position: relative;
     left: 0;
     right: 0;
-    bottom: -2px; /* hide seam */
+    bottom: -1px;
     width: 100%;
     height: auto;
     display: block;
@@ -130,6 +130,10 @@
         padding: 120px 20px 30px;
         flex-direction: column;
         align-items: flex-start;
+    }
+
+    .home-hero__wave {
+        bottom: 0;
     }
 
     .decor__flag {
