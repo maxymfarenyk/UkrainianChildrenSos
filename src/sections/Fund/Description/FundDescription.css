@@ -22,9 +22,21 @@
     margin-bottom: 20px;
 }
 
+p {
+    font-size: 18px;
+}
+
 .fund-description__column {
     flex: 1;
     min-width: 0;
+}
+
+.description-photo {
+    margin-bottom: 20px;
+}
+
+.description-photo img{
+    width: 100%;
 }
 
 @media (max-width: 768px) {
@@ -37,5 +49,20 @@
     .fund-description__column {
         flex: unset;
         width: 100%;
+    }
+
+    .fund-description__title {
+        margin: 20px auto;
+        display: block;
+        text-align: center;
+    }
+
+    p{
+        margin-block-start: 0;
+    }
+
+
+    h2 {
+        font-size: 28px;
     }
 }
