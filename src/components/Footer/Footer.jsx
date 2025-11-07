@@ -14,7 +14,7 @@ const Footer = () => {
 
                 {/* Контакти */}
                 <div className="footer-col-left">
-                    <h3 className="footer-title">{t('header.contacts')}</h3>
+                    <h2 className="footer-title">{t('header.contacts')}</h2>
                     <ul className="footer-list">
                         <li>
                             <svg width="36" height="36" viewBox="0 0 36 36" fill="none"
@@ -83,7 +83,7 @@ const Footer = () => {
 
                 {/* Корисні посилання */}
                 <div className="footer-col-center">
-                    <h3 className="footer-title">{t('footer.links')}</h3>
+                    <h2 className="footer-title">{t('footer.links')}</h2>
                     <ul className="footer-list">
                         <li>
                             <NavLink to="/fund">

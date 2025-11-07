@@ -1,7 +1,7 @@
 .site-footer {
     background: #a1d0ed;
     padding: 40px 120px;
-    font-size: 17px;
+    font-size: 18px;
 }
 
 .footer-content {
@@ -27,8 +27,7 @@
 }
 
 .footer-title {
-    font-size: 32px;
-    font-weight: bold;
+    margin-top: 5px;
     margin-bottom: 15px;
 }
 

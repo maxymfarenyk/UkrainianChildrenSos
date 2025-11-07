@@ -6,15 +6,12 @@
 }
 
 .statistics-title {
-    font-size: 36px;
-    font-weight: bold;
     color: #000000;
     margin-bottom: 30px;
     padding-left: 55px;
 }
 
 .statistics-date {
-    font-size: 18px;
     color: #002d62;
     margin-bottom: 30px;
     padding-left: 55px;
@@ -46,7 +43,6 @@
 }
 
 .statistic-label {
-    font-size: 18px;
     color: #002d62;
     margin-top: 15px;
     margin-block-end: 0;
@@ -54,7 +50,7 @@
 }
 
 .statistics-note {
-    font-size: 16px;
+    font-size: 18px;
     color: #002d62;
     max-width: 100%;
     text-align: left;

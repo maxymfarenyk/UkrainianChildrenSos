@@ -15,7 +15,7 @@ const Description = () => {
                     <div className="fund-description__text-grid">
 
                         <div className="fund-description__column fund-description__column--left">
-                            <p dangerouslySetInnerHTML={{ __html:t('stories.description.p1')}}/>
+                            <p>{t('stories.description.p1')}</p>
                         </div>
 
                         <div className="fund-description__column fund-description__column--right">

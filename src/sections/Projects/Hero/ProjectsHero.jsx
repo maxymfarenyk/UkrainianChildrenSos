@@ -15,13 +15,13 @@ const Hero = () => {
                         <br />
                         {t('projects.hero.title_line2')}
                     </h1>
-                    <p className="home-hero__subtitle">
+                    <h3 className="home-hero__subtitle">
                         {t('projects.hero.subtitle1')}
                         <br />
                         {t('projects.hero.subtitle2')}
                         <br />
                         {t('projects.hero.subtitle3')}
-                    </p>
+                    </h3>
                     <a href="#help" className="donate-btn banner">{t('home.hero.cta')}</a>
                 </div>
 

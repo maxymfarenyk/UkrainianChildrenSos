@@ -19,11 +19,7 @@
 }
 
 .fund-description__title {
-    margin-bottom: 20px;
-}
-
-p {
-    font-size: 18px;
+    margin-bottom: 0;
 }
 
 .fund-description__column {
@@ -43,7 +39,7 @@ p {
 
     .fund-description__text-grid {
         flex-direction: column;
-        gap: 0px;
+        gap: 0;
     }
 
     .fund-description__column {

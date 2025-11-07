@@ -22,16 +22,14 @@
 
 .home-hero__title {
     margin: 0 0 24px;
-    font-weight: 800;
-    font-size: 50px;
     line-height: 1.05;
     color: #121417;
 }
 
 .home-hero__subtitle {
     margin: 0 0 24px;
-    font-size: 22px;
     color: #1d2428;
+    font-weight: normal;
 }
 
 .home-hero__cta {
@@ -89,7 +87,7 @@
 .decor__butterfly {
     position: absolute;
     top: -10px;
-    right: 550px;
+    right: 500px;
     width: 90px;
     height: auto;
 }

@@ -136,6 +136,16 @@
       "title": "Stories of Ukrainian Children",
       "p1": "This section gathers the stories of children who have suffered as a result of the full-scale war: those who were wounded, killed, abducted, or illegally detained by Russian military or occupying authorities.",
       "p2": "You will also find materials about children who were able to return home after deportation to Russia or Belarus, or after being forcibly taken to temporarily occupied territories."
+    },
+    "stories": {
+      "vlad": {
+        "title": "Vlad, 19 years old, Kherson",
+        "subtitle": "forcibly transferred by Russians to a military college, returned to Ukraine in 2024",
+        "p1": "During the occupation of Kherson, Russian soldiers began searching for families with children who were not enrolled in local schools.<br>At first, Vlad's mother hid him and other children at home. One day, Russian soldiers with weapons entered the house when Vlad was alone. He was forced to pack his things and go with them — to an unknown destination and for an indefinite time.",
+        "p2": "Vlad was moved between camps in Yevpatoria and Lazurne. There he was punished for protesting — such as removing the Russian flag — and was even held in isolation. Vlad witnessed how other children were humiliated, beaten, and forced to record apology videos.",
+        "p3": "After the de-occupation of Kherson, his mother Tetiana filed a report about her son's disappearance and turned to the organization Save Ukraine. To reach the occupied territory, she had to travel through Poland, Belarus, and Russia. Before Vlad's return, she was detained, interrogated by FSB officers, and forced to spend the night in horrific conditions. Later, she learned that her plan may have been betrayed.",
+        "p4": "Vlad and Tetiana were released only after they recorded a video praising Russia. Their documents and phones were returned, and after more than 12 hours of waiting at the border, they were finally allowed to leave."
+      }
     }
   },
   "footer": {

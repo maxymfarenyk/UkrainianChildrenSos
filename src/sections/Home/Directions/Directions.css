@@ -6,7 +6,6 @@
 }
 
 .directions-title {
-    font-size: 32px;
     font-weight: bold;
     margin-bottom: 40px;
 }
@@ -32,7 +31,6 @@
 }
 
 .direction-text {
-    font-size: 20px;
     line-height: 1.5;
 }
 .wave {
