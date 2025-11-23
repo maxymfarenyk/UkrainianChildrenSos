@@ -160,7 +160,6 @@
 
     .testimony-card {
         padding: 25px 20px 20px;
-        min-height: 200px;
     }
 
     .testimony-quote {
@@ -189,6 +188,7 @@
 @media (max-width: 768px) {
     .home-testimony {
         padding: 0;
+        max-height: 300px;
     }
 
     .home-testimony-inner {
@@ -200,13 +200,13 @@
     .testimony-card {
         padding: 20px 15px 15px;
         border-width: 2px;
-        justify-content: space-between;
-        min-height: 205px;
+        justify-content: center;
+        min-height: 200px;
     }
 
     .testimony-quote {
         font-size: 18px;
-        margin-top: 10%;
+        margin-top: 0;
         margin-bottom: 0px;
         flex-grow: 0;
     }

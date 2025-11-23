@@ -1,6 +1,7 @@
 .help-banner {
     position: relative;
     background: transparent;
+    padding-top: 50px;
     padding-bottom: 70px;
     margin-bottom: 0;
     text-align: center;
@@ -64,6 +65,7 @@
 @media (max-width: 768px) {
     .help-banner {
         padding-bottom: 20px;
+        padding-top: 30px;
     }
 
     .help-banner-content {

@@ -26,3 +26,9 @@
     margin-bottom: 0;
     color: black;
 }
+
+@media (max-width: 768px) {
+    .stories-description__video-wrapper {
+        max-width: 100%;
+    }
+}

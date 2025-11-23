@@ -81,7 +81,6 @@
         margin: 20px auto;
         display: block;
         text-align: center;
-        font-size: 28px;
     }
 
     .team-section__top-flex {
@@ -96,6 +95,15 @@
     .team-section__rest-grid {
         grid-template-columns: repeat(3, 1fr);
     }
+
+    .team-member__name {
+        font-size: 20px;
+    }
+
+    .team-member__title {
+        font-size: 18px;
+    }
+
 }
 
 @media (max-width: 768px) {

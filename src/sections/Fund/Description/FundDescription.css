@@ -27,10 +27,6 @@
     min-width: 0;
 }
 
-.description-photo {
-    margin-bottom: 20px;
-}
-
 .description-photo img{
     width: 100%;
 }
@@ -55,10 +51,5 @@
 
     p{
         margin-block-start: 0;
-    }
-
-
-    h2 {
-        font-size: 28px;
     }
 }

@@ -70,8 +70,8 @@ const Testimony = () => {
                         speed={600}
                         breakpoints={{
                             320: {
-                                slidesPerView: 1,
-                                spaceBetween: 20,
+                                slidesPerView: 1.1,
+                                spaceBetween: 10,
                             },
                             768: {
                                 slidesPerView: 1.8,

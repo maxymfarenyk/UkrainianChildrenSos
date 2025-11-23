@@ -32,14 +32,6 @@
     min-width: 0;
 }
 
-.description-photo {
-    margin-bottom: 20px;
-}
-
-.description-photo img{
-    width: 100%;
-}
-
 @media (max-width: 768px) {
 
     .stories-description__text-grid {
@@ -53,17 +45,19 @@
     }
 
     .stories-description__title {
-        margin: 20px auto;
+        margin-top: 40px;
+        margin-inline: auto;
         display: block;
         text-align: center;
     }
 
-    p{
-        margin-block-start: 0;
+    .stories-description__subtitle {
+        margin-top: 0.5em;
+        margin-bottom: 1em;
+        color: #CF1C1C;
     }
 
-
-    h2 {
-        font-size: 28px;
+    p{
+        margin-block-start: 0;
     }
 }
