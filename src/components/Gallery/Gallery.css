@@ -18,11 +18,11 @@
     position: relative;
     width: 100%;
     max-width: 1400px;
-    margin: 0 auto;
+    margin-left: 60px;
 }
 
 .gallery-swiper {
-    padding-left: 100px;
+    padding-left: 55px;
     overflow: visible;
 }
 
@@ -125,9 +125,13 @@
         max-width: 95%;
     }
 
+    .gallery-slider {
+        margin-left: 0;
+    }
 
     .gallery-card {
-        padding: 20px 15px 15px;
+        padding-top: 20px;
+        padding-bottom: 15px;
         border-width: 2px;
         justify-content: space-between;
         min-height: 205px;
