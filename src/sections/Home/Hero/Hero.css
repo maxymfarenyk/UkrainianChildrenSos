@@ -18,6 +18,7 @@
 
 .home-hero__content {
     max-width: 800px;
+    margin-top: 35px;
 }
 
 .home-hero__title {
@@ -61,28 +62,28 @@
 
 .decor__flag {
     position: absolute;
-    top: -40px;
-    right: 480px;
-    width: 130px;
-    height: auto;
+    top: -20px;
+    right: 500px;
+    width: 119px;
+    height: 88px;
 }
 
 /* Стилі для позиціонування хлопчика */
 .decor__boy {
     position: absolute;
     bottom: 100px; /* Внизу блока */
-    right: 230px; /* Праворуч блока */
-    width: 200px; /* Приблизний розмір хлопчика */
-    height: auto;
+    right: 160px; /* Праворуч блока */
+    width: 213px;
+    height: 244px;
 }
 
 /* Стилі для позиціонування сонця */
 .decor__sun {
     position: absolute;
     top: -80px; /* Вище хлопчика */
-    right: 100px; /* Праворуч блока */
-    width: 120px; /* Приблизний розмір сонця */
-    height: auto;
+    right: -10px; /* Праворуч блока */
+    width: 121px; /* Приблизний розмір сонця */
+    height: 101px;
 }
 
 .decor__butterfly {
@@ -137,15 +138,15 @@
 
     .decor__flag {
         position: absolute;
-        top: -20px;
-        right: 240px;
+        top: 0;
+        right: 230px;
         width: 87px;
         height: auto;
     }
 
     .decor__boy {
         position: absolute;
-        bottom: 10px;
+        bottom: 0px;
         right: 70px;
         width: 160px;
         height: auto;
@@ -153,7 +154,7 @@
 
     .decor__sun {
         position: absolute;
-        top: -90px;
+        top: -80px;
         right: 10px;
         width: 104px;
         height: auto;

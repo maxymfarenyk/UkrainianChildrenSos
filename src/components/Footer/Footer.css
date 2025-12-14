@@ -36,6 +36,11 @@
     margin: 0;
     padding: 0;
     font-weight: bold;
+    line-height: 1.7;
+}
+
+.footer-col-left .footer-list {
+    margin-top: 20px;
 }
 
 .footer-list li {
@@ -45,7 +50,7 @@
     gap: 8px;
 }
 
-.footer-list li a{
+.footer-list li a {
     font-weight: bold;
     color: #213547;
 }
@@ -55,6 +60,7 @@
     margin-top: 15px;
     padding: 0;
     font-weight: bold;
+    line-height: 1.7;
 }
 
 .footer-links li {
@@ -64,7 +70,7 @@
 .footer-social {
     display: flex;
     gap: 15px;
-    margin-top: 20px;
+    margin-top: 25px;
 }
 
 .footer-donate-btn {
@@ -126,6 +132,30 @@
     display: none;
 }
 
+.footer_decor__flag {
+    position: absolute;
+    top: 100px;
+    right: 390px;
+    width: 106px;
+    height: 84px;
+}
+
+.footer_decor__boy{
+    position: absolute;
+    top: 200px;
+    right: 170px;
+    width: 189px;
+    height: 235px;
+}
+
+.footer_decor__sun{
+    position: absolute;
+    top: 60px;
+    right: 40px;
+    width: 107px;
+    height: 97px;
+}
+
 @media (max-width: 992px) {
     .site-footer {
         padding: 10%;
@@ -168,7 +198,7 @@
 
     .footer-links.mobile-only {
         display: block;
-        margin-top: 10%/* Відображаємо мобільний блок */
+        margin-top: 10% /* Відображаємо мобільний блок */
     }
 
     .footer-social {

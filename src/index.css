@@ -7,6 +7,13 @@
 
 @font-face {
   font-family: 'CirceRounded';
+  src: url('./assets/fonts/CirceRounded-Bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'CirceRounded';
   src: url('./assets/fonts/CirceRounded-ExtraBold.otf') format('opentype');
   font-weight: 800;
   font-style: normal;
@@ -46,11 +53,13 @@ body {
 h1 {
   font-size: 56px;
   line-height: 1.1;
+  font-weight: 800;
 }
 
 h2 {
   font-size: 40px ;
   line-height: 1.1;
+  font-weight: 800;
 }
 
 h3 {

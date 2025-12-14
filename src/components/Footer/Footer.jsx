@@ -4,6 +4,9 @@ import {useLanguage} from '../../context/LanguageContext.jsx'
 import {NavLink} from "react-router-dom";
 import InstagramIcon from "../SvgIcons/InstagramIcon.jsx";
 import FacebookIcon from "../SvgIcons/FacebookIcon.jsx";
+import UaFlagIcon from "../SvgIcons/UaFlagIcon.jsx";
+import BoyIcon from "../SvgIcons/BoyIcon.jsx";
+import SunIcon from "../SvgIcons/SunIcon.jsx";
 
 const Footer = () => {
     const {language, setLanguage, t} = useLanguage()
@@ -136,9 +139,15 @@ const Footer = () => {
                 </div>
 
                 <div className="footer-placeholder">
-                    <img src={'/assets/images/ua_flag_icon.png'} alt="ukrainian flag icon"/>
-                    <img src={'/assets/images/boy_icon.png'} alt="boy running icon"/>
-                    <img src={'/assets/images/sun_icon.png'} alt="sun icon"/>
+                    <div className="footer_decor__flag">
+                        <UaFlagIcon/>
+                    </div>
+                    <div className="footer_decor__boy">
+                        <BoyIcon/>
+                    </div>
+                    <div className="footer_decor__sun">
+                        <SunIcon/>
+                    </div>
                 </div>
             </div>
         </footer>

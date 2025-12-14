@@ -2,6 +2,9 @@ import React from 'react';
 import './Hero.css';
 import { useLanguage } from '../../../context/LanguageContext.jsx';
 import BlueWave from "../../../components/Waves/BlueWave.jsx";
+import UaFlagIcon from "../../../components/SvgIcons/UaFlagIcon.jsx";
+import BoyIcon from "../../../components/SvgIcons/BoyIcon.jsx";
+import SunIcon from "../../../components/SvgIcons/SunIcon.jsx";
 
 const Hero = () => {
   const { t } = useLanguage();
@@ -25,13 +28,13 @@ const Hero = () => {
 
         <div className="home-hero__decor" aria-hidden="true">
           <div className="decor__flag">
-            <img src={'/assets/images/ua_flag_icon.png'} alt="ukrainian flag icon"/>
+            <UaFlagIcon/>
           </div>
           <div className="decor__boy">
-            <img src={'/assets/images/boy_icon.png'} alt="boy running icon"/>
+            <BoyIcon/>
           </div>
           <div className="decor__sun">
-            <img src={'/assets/images/sun_icon.png'} alt="sun icon"/>
+            <SunIcon/>
           </div>
         </div>
       </div>
