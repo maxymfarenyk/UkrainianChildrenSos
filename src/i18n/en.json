@@ -180,6 +180,17 @@
       }
     }
   },
+  "contact": {
+    "title": "Want to ask a question or share an idea?",
+    "subtitle": "Write to us — we'll be happy to reply and support you!",
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "phone": "Phone Number",
+    "message": "Message",
+    "requiredFields": "These fields are required",
+    "privacyPolicy": "I agree with the Privacy Policy",
+    "send": "Submit"
+  },
   "footer": {
     "location": "London",
     "links": "Useful Links",
