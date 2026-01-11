@@ -19,6 +19,13 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'Rubik';
+  src: url('./assets/fonts/Rubik-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
 :root {
   font-family: CirceRounded, CirceRounded-Regular, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
