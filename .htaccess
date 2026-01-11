@@ -1,0 +1,17 @@
+RewriteEngine On
+
+# 1. If HTTP move to HTTPS
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URL} [L,R=301]
+
+# 2. Deny access to private files
+<Files "debug.txt">
+    Order Allow,Deny
+    Deny from all
+</Files>
+
+# 3. Configurate routing for React SPA
+RewriteBase /
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.html [L]
