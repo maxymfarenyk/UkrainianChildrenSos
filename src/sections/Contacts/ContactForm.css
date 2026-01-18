@@ -30,7 +30,7 @@
 
 .contact-form__row {
     display: flex;
-    gap: 24px; /* Відступ між полями */
+    gap: 24px;
     width: 100%;
     box-sizing: border-box;
 }
@@ -58,30 +58,29 @@
     font-family: Rubik;
 }
 
-/* Налаштування самих інпутів */
 .contact-form__group input,
 .contact-form__group textarea {
     width: 100%;
-    box-sizing: border-box; /* ГАРАНТУЄ, що padding не розширює поле */
+    box-sizing: border-box;
     padding: 12px 20px;
     border: 2px solid #000;
     border-radius: 15px;
     font-family: inherit;
-    font-size: 16px; /* Бажано додати, щоб текст не "стрибав" */
+    font-size: 16px;
     outline: none;
-    display: block; /* Прибирає зайві пробіли знизу */
+    display: block;
 }
 
 .contact-form__group textarea {
-    border-radius: 15px; /* Якщо хочете саме 15px для текстареа */
+    border-radius: 15px;
     resize: vertical;
-    min-height: 120px; /* Бажано задати початкову висоту */
+    min-height: 120px;
 }
 
 .contact-form__required-info {
     font-size: 20px;
     color: #000000CC;
-    margin-top: 5px;
+    margin-top: -10px;
     margin-bottom: 15px;
 }
 
@@ -110,10 +109,26 @@
     opacity: 0.8;
 }
 
-/* Адаптивність */
 @media (max-width: 768px) {
+    .contact-form {
+        padding-top: 10px;
+        padding-bottom: 40px;
+    }
+
+    .contact-form__header {
+        margin-bottom: 0;
+    }
+
+    .contact-form__body {
+        margin-top: 20px;
+    }
+
     .contact-form__inner {
         width: 90%;
+    }
+
+    .contact-form__group {
+        gap: 0;
     }
 
     .contact-form__row {
@@ -122,7 +137,16 @@
     }
 
     .contact-form__title {
-        text-align: center;
         font-size: 24px;
+        max-width: 100%;
+    }
+
+
+    .contact-form__required-info {
+        margin-top: -15px;
+    }
+
+    .contact-form__submit-btn {
+        width: 100%;
     }
 }
