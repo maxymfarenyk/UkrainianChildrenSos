@@ -8,6 +8,7 @@ import ProjectsPage from "./pages/ProjectsPage.jsx";
 import Footer from "./components/Footer/Footer.jsx";
 import ContactsPage from "./pages/ContactsPage.jsx";
 import ScrollToTop from "./components/ScrollToTop/ScrollToTop.jsx";
+import ThankYouPage from "./pages/ThankYouPage.jsx";
 
 function App() {
     return (
@@ -20,6 +21,7 @@ function App() {
                 <Route path="/projects" element={<ProjectsPage/>}/>
                 <Route path="/stories" element={<StoriesPage/>}/>
                 <Route path="/contacts" element={<ContactsPage/>}/>
+                <Route path="/thankyou" element={<ThankYouPage/>}/>
             </Routes>
             <Footer/>
         </HashRouter>

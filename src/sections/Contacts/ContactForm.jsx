@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './ContactForm.css';
 import { useLanguage } from '../../context/LanguageContext.jsx';
+import {useNavigate} from "react-router-dom";
 
 const ContactForm = () => {
     const { t } = useLanguage();
@@ -12,6 +13,8 @@ const ContactForm = () => {
         message: '',
         agreement: false
     });
+
+    const navigate = useNavigate();
 
     const handleChange = (e) => {
         const { name, value, type, checked } = e.target;
@@ -38,22 +41,13 @@ const ContactForm = () => {
             const result = await response.json();
 
             if (response.ok) {
-                alert("Дякуємо! Ваше повідомлення надіслано.");
-                // Очищуємо форму після успішної відправки
-                setFormData({
-                    firstName: '',
-                    lastName: '',
-                    email: '',
-                    phone: '',
-                    message: '',
-                    agreement: false
-                });
+                navigate('/thanks')
             } else {
-                alert("Помилка сервера: " + result.message);
+                alert("Server error: " + result.message);
             }
         } catch (error) {
-            console.error("Помилка відправки:", error);
-            alert("Не вдалося з'єднатися з сервером.");
+            console.error("Sending error:", error);
+            alert("Couldn't connect to the server.");
         }
     };
 
