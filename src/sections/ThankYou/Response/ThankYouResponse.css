@@ -1,0 +1,43 @@
+.thx-response {
+    position: relative;
+    overflow: hidden;
+    margin-top: 50px;
+    width: 100%;
+    background-color: #FFFFFF;
+}
+
+strong{
+    font-weight: 800;
+}
+
+p{
+    font-size: 24px;
+}
+
+.thx-response-inner {
+    margin: 0 auto;
+    padding: 0 15%;
+    display: block;
+    align-items: start;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.thx-response-text {
+    color: #000000;
+}
+
+@media (max-width: 767px) {
+    .thx-response-inner {
+        max-width: none;
+        padding: 0 5%;
+    }
+
+    p strong {
+        font-size: 20px;
+    }
+
+    p{
+        font-size: 16px;
+    }
+}

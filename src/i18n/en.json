@@ -180,6 +180,27 @@
       }
     }
   },
+  "contact": {
+    "title": "Want to ask a question or share an idea?",
+    "subtitle": "Write to us — we'll be happy to reply and support you!",
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "phone": "Phone Number",
+    "message": "Message",
+    "requiredFields": "These fields are required",
+    "privacyPolicy": "I agree with the Privacy Policy",
+    "send": "Submit"
+  },
+  "thankyou": {
+    "title": "Thank You!",
+    "subtitle": "Your message is important to us — thank you!",
+    "home": "Back to Home"
+  },
+  "thx-response": {
+    "title": "We will call you or reply by email as soon as possible.",
+    "paragraph1": "Our team works during standard business hours, so this form is not intended for urgent requests. We appreciate your understanding that sometimes a response may take a little longer.",
+    "paragraph2": "Thank you for caring about children and your willingness to help!"
+  },
   "footer": {
     "location": "London",
     "links": "Useful Links",

@@ -1,0 +1,193 @@
+.thankyou {
+    position: relative;
+    background-color: #a1d0ed; /* light blue */
+    overflow: hidden;
+    width: 100%;
+}
+
+.thankyou__inner {
+    width: 80%;
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 130px 5vw 0; /* responsive gutters */
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.thankyou__content {
+    max-width: 800px;
+    margin-top: 35px;
+}
+
+.thankyou__title {
+    margin: 0 0 24px;
+    line-height: 1.05;
+    color: #121417;
+}
+
+.thankyou__subtitle {
+    margin: 0 0 24px;
+    color: #1d2428;
+    font-weight: normal;
+    line-height: 1.5;
+}
+
+.thankyou__cta {
+    background-color: #ffe36b;
+    color: #1d2428;
+    font-weight: 800;
+    font-size: 22px;
+    text-decoration: none;
+    padding: 14px 24px;
+    border-radius: 999px;
+    display: inline-block;
+    border: 4px solid transparent;
+    transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease;
+}
+
+.thankyou__cta:hover {
+    background-color: transparent;
+    color: #ffe36b;
+    border-color: #ffe36b;
+}
+
+.thankyou__decor {
+    position: relative;
+    flex: 1 1 auto;
+    min-height: 360px;
+    pointer-events: none;
+}
+
+.decor__flag {
+    position: absolute;
+    top: -20px;
+    right: 500px;
+    width: 119px;
+    height: 88px;
+}
+
+/* Стилі для позиціонування хлопчика */
+.decor__boy {
+    position: absolute;
+    bottom: 100px; /* Внизу блока */
+    right: 160px; /* Праворуч блока */
+    width: 213px;
+    height: 244px;
+}
+
+/* Стилі для позиціонування сонця */
+.decor__sun {
+    position: absolute;
+    top: -80px; /* Вище хлопчика */
+    right: -10px; /* Праворуч блока */
+    width: 121px; /* Приблизний розмір сонця */
+    height: 101px;
+}
+
+.decor__butterfly {
+    position: absolute;
+    top: -10px;
+    right: 440px;
+    width: 90px;
+    height: auto;
+}
+
+.decor__car {
+    position: absolute;
+    top: 250px;
+    right: 300px;
+    width: 110px;
+    height: auto;
+}
+
+.thankyou__wave {
+    position: relative;
+    left: 0;
+    right: 0;
+    bottom: -1px;
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.thankyou__decor img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+@media (max-width: 1366px) {
+
+    .thankyou__decor {
+        display: none;
+    }
+}
+
+@media (max-width: 767px) {
+    .thankyou__inner {
+        padding: 120px 20px 30px;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .thankyou__wave {
+        bottom: 0;
+    }
+
+    .decor__flag {
+        position: absolute;
+        top: 0;
+        right: 230px;
+        width: 87px;
+        height: auto;
+    }
+
+    .decor__boy {
+        position: absolute;
+        bottom: 0px;
+        right: 70px;
+        width: 160px;
+        height: auto;
+    }
+
+    .decor__sun {
+        position: absolute;
+        top: -80px;
+        right: 10px;
+        width: 104px;
+        height: auto;
+    }
+
+    .decor__butterfly {
+        position: absolute;
+        top: -10px;
+        right: 250px;
+        width: 62px;
+        height: auto;
+    }
+
+    .decor__car {
+        position: absolute;
+        top: 140px;
+        right: 110px;
+        width: 83px;
+        height: auto;
+    }
+
+    .thankyou__decor {
+        order: -1;
+        align-self: stretch;
+        min-height: 240px;
+        display: block;
+    }
+
+    .thankyou__title {
+        font-size: 26px;
+    }
+
+    .thankyou__subtitle {
+        font-size: 20px;
+    }
+}
