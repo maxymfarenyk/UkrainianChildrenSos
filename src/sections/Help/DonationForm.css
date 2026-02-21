@@ -1,0 +1,134 @@
+/* Зовнішній контейнер, який створює білий фон навколо */
+.donation {
+    width: 100%;
+    background-color: #fff; /* Білий фон навколо секції */
+    padding: 40px 0;        /* Відступи зверху та знизу */
+    display: flex;
+    justify-content: center;
+}
+
+/* Внутрішній блок з фото та карткою */
+.donation__inner {
+    width: 100%;
+    max-width: 80%;
+    min-height: 30%;
+
+    background-image: url('/assets/photos/UN0770704.jpg 1.png');
+    background-size: cover;
+    background-position: center;
+
+    border-radius: 30px;    /* Закруглені краї самого фото-блоку */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 60px 20px;
+    overflow: hidden;       /* Щоб картинка не виходила за закруглені краї */
+}
+
+.donation__card {
+    background-color: #9ED3ED;
+    border-radius: 30px;
+    padding: 35px; /* Трохи компактніше */
+    max-width: 460px;
+    width: 100%;
+    box-sizing: border-box;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+}
+
+.donation__title {
+    font-size: 28px; /* Трохи зменшив */
+    font-weight: 900;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.donation__currency-row {
+    display: flex;
+    gap: 10px;
+    justify-content: left;
+    margin-bottom: 25px;
+}
+
+/* Кнопки вибору валюти та суми */
+.donation__currency-btn,
+.donation__amount-btn {
+    background: #fff;
+    border: none;
+    border-radius: 20px;
+    font-weight: 800;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease; /* Плавний перехід */
+}
+
+.donation__currency-btn {
+    padding: 8px 18px;
+    font-size: 14px;
+}
+
+.donation__amount-btn {
+    padding: 12px 5px;
+    border-radius: 25px;
+    font-size: 13px;
+    white-space: nowrap;
+}
+
+/* Ефект при наведенні (жовтий) */
+.donation__currency-btn:hover,
+.donation__amount-btn:hover {
+    background-color: #FEE67E;
+    color: #000;
+}
+
+/* Активний стан (жовтий, як на макеті) */
+.donation__currency-btn.active,
+.donation__amount-btn.active {
+    background-color: #FEE67E;
+    color: #000;
+}
+
+.donation__subtitle {
+    font-size: 16px;
+    font-weight: 800;
+    margin-bottom: 12px;
+}
+
+.donation__amount-row {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    margin-bottom: 25px;
+}
+
+.donation__agreement {
+    display: flex;
+    gap: 10px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    align-items: flex-start;
+}
+
+.donation__checkbox {
+    width: 18px;
+    height: 18px;
+    margin-top: 2px;
+}
+
+.donation__agreement-text {
+    line-height: 1.3;
+}
+
+.donation__submit-btn {
+    background-color: #FEE67E;
+    border: none;
+    border-radius: 30px;
+    width: 100%;
+    padding: 16px;
+    font-size: 18px;
+    font-weight: 800;
+    cursor: pointer;
+    transition: opacity 0.3s ease, transform 0.1s;
+}
+
+.donation__submit-btn:hover {
+    opacity: 0.9;
+}

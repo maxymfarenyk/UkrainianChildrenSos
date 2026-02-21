@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, {useState} from 'react'
 import './Header.css'
 import {useLanguage} from '../../context/LanguageContext.jsx'
 import {Link, NavLink} from "react-router-dom";
@@ -77,7 +77,9 @@ const Header = () => {
                         </button>
                     </div>
                     <span className="sep"></span>
-                    <a className="donate-btn" href="#help">{t('header.donate')}</a>
+                    <NavLink to="/help" className="donate-btn" >
+                        {t('header.donate')}
+                    </NavLink>
                     <button
                         className={`menu-toggle ${isMenuOpen ? 'is-active' : ''}`}
                         aria-label="Toggle navigation"
